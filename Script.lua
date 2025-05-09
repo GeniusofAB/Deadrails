@@ -101,7 +101,7 @@ checkKeyBtn.MouseButton1Click:Connect(function()
 end)
 
 getKeyBtn.MouseButton1Click:Connect(function()
-    setclipboard("https://t.me/deltaversions")
+    setclipboard("https://t.me/deltaversions/243")
     showNotification("Ссылка скопирована!", 2)
 end)
 
