@@ -93,7 +93,7 @@ checkKeyBtn.MouseButton1Click:Connect(function()
         end)
         if not success then
             warn("Ошибка при запуске скрипта: " .. tostring(err))
-            showNotification("Ошибка при запуске скрипта!", 3)
+            showNotification("error!", 3)
         end
     else
         showNotification("Неверный ключ", 3)
@@ -101,7 +101,7 @@ checkKeyBtn.MouseButton1Click:Connect(function()
 end)
 
 getKeyBtn.MouseButton1Click:Connect(function()
-    setclipboard("https://t.me/deltaversions/243")
+    setclipboard("https://t.me/deltaversions/246")
     showNotification("Ссылка скопирована!", 2)
 end)
 
