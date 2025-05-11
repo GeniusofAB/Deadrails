@@ -4,7 +4,7 @@ local Players = game:GetService("Players")
 local lp = Players.LocalPlayer
 local gui = Instance.new("ScreenGui", game.CoreGui)
 
-local KeyListURL = "https://gist.githubusercontent.com/GeniusofAB/976d773cead0c597b4d57b0a75447814/raw/210a514ecf41b183ccae7af4eb153f91c821678b/Keys.txt"
+local KeyListURL = "https://gist.githubusercontent.com/GeniusofAB/976d773cead0c597b4d57b0a75447814/raw/5839550577fee99643072c001add10074bb8aab4/Keys.txt"
 local ScriptURL = "https://raw.githubusercontent.com/GeniusofAB/Script-/refs/heads/main/Dead_rails.lua"
 local keys = {}
 
